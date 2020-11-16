@@ -1,0 +1,1 @@
+select 'insert into TESTTAB ( PROP ) values ( VALUE );' "SQL" from SYS.SYSTABLES where tablename = 'SYSTABLES' %

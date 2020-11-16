@@ -1,0 +1,8 @@
+Command line SQL client - execute arbitrary SQL against a configured JDBC datasource
+-------------------------------------------------------------------------------------------
+
+1. Copy sample.db_config.properties to db_config.properties
+
+2. Edit db_config.properties and set it to the appropriate JDBC connection details
+
+3. Run ./execsql.sh <sqlFilePath> to execute a SQL script

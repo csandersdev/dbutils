@@ -1,0 +1,2 @@
+select '&SCHEMA;' "SCHEMA" 
+  from SYS.SYSTABLES where TABLENAME='SYSTABLES';
