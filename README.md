@@ -1,4 +1,4 @@
-# dbutils
+# execsql
 Command-line JDBC client that will execute SQL from script files and output the results in CSV format. The client comes with some useful features around substituting variables into scripts, using variable statement delimiters, and handling LOB type columns in the output. This should work with any JDBC driver, but some profiles are provided that will link in drivers for common RDBMS vendors that you might want to interact with. If your preferred vendor isn't listed, you can update env.cfg in the deployment so that the classpath includes the JDBC driver for the target system.
 
 ```
